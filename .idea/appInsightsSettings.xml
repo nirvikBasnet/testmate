@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="dev.nirvik.closedtestersapp" />
+                  <option name="mobileSdkAppId" value="1:461653863915:android:c666d8da9ba63f1a16bdae" />
+                  <option name="projectId" value="closedtestersapp" />
+                  <option name="projectNumber" value="461653863915" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

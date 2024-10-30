@@ -1,5 +1,6 @@
 package dev.nirvik.closedtestersapp
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -11,19 +12,17 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import dev.nirvik.closedtestersapp.ui.theme.ClosedtestersappTheme
-
+import dev.nirvik.closedtestersapp.app.ui.presentation.screens.MyNavigation
+import dev.nirvik.closedtestersapp.app.ui.theme.ClosedtestersappTheme
+@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             ClosedtestersappTheme {
-                Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                Scaffold( modifier = Modifier.fillMaxSize() ) {  innerPadding ->
+                    MyNavigation()
                 }
             }
         }

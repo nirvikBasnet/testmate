@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461653863915",
+    "project_id": "closedtestersapp",
+    "storage_bucket": "closedtestersapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461653863915:android:c666d8da9ba63f1a16bdae",
+        "android_client_info": {
+          "package_name": "dev.nirvik.closedtestersapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLYkmgjIAWragB7KNxaCeYV4zaePApW6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

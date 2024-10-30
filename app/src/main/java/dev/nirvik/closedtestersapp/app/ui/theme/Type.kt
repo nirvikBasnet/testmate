@@ -1,4 +1,4 @@
-package dev.nirvik.closedtestersapp.ui.theme
+package dev.nirvik.closedtestersapp.app.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

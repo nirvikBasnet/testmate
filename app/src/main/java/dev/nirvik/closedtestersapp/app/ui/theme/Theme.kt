@@ -1,4 +1,4 @@
-package dev.nirvik.closedtestersapp.ui.theme
+package dev.nirvik.closedtestersapp.app.ui.theme
 
 import android.app.Activity
 import android.os.Build
